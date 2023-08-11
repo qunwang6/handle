@@ -5,8 +5,8 @@ import { answers } from './answers/list'
 import { START_DATE } from './logic/constants'
 import { tryFixAnswer } from './logic/answer-fix'
 
-useTitle(computed(() => `${t('name')} - ${t('description')}`))
-
+// useTitle(computed(() => `${t('name')} - ${t('description')}`))
+useTitle(computed(() => `${name} - ${description}`))
 if (!initialized.value)
   showHelp.value = true
 
