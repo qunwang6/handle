@@ -27,9 +27,6 @@ const final = computed(() => ({ py: 'uo', zy: 'ㄨㄛ', sp: 'o' }[inputMode.valu
       </button>
     </div>
 
- 
-
-    <div h-1px w-10 border="b base" m4 />
 
     <p text-xl font-serif mb4>
       <b>{{ t('rule') }}</b>
