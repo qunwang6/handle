@@ -14,9 +14,7 @@ function openHelp() {
 
 <template>
   <nav border="b base" relative>
-    <div absolute font-serif text-2xl left-0 right-0 top-0 bottom-0 z--1 tracking-2 flex>
-      <AppName ma />
-    </div>
+
     <div flex items-center justify-between md:max-w-md ma py4 px2>
       <div flex items-center>
         <button icon-btn mx2 @click="openHelp()">
